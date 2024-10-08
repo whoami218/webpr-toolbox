@@ -58,3 +58,14 @@ either( safeDiv(1)(0)  )
       ( x => console.error(x))
       ( x => console.log(x));
 ```
+
+## Special Case
+```
+const Nothing = Left ();
+const Just = Right;
+const maybe = either;
+
+maybe (expressionThatMightFail)
+      ( x => console.error(x))
+      ( x => console.log(x));
+```
