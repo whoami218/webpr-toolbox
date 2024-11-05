@@ -7,3 +7,4 @@
 [Woche 5](week5.md)  
 [Woche 6](week6.md)  
 [Woche 7](week7.md)
+[Woche 8](week8.md)  
